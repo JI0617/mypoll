@@ -1,0 +1,10 @@
+{% extends "layouts/main_layout.html" %}
+
+{% block title %}Welcome{% endblock title %}
+
+{% block contents %}
+    <h1>설문조사 앱</h1>
+    <h2>안녕하세요.</h2>
+    현재시간: <b>{{now}}</b>
+    {# {{now}} -> view에서 now라는 이름으로 전달된 값을 출력 #}
+{% endblock contents %}
